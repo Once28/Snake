@@ -1,6 +1,6 @@
 using System;
-using System.Collections.Gneric;
-using System.Ling;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Snake
@@ -10,7 +10,7 @@ namespace Snake
     public int X { get; set; }
     public int Y { get; set; }
     
-    pulic Cicle ()
+    pulic Circle ()
     {
       X = 0;
       Y = 0;
